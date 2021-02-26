@@ -1,0 +1,17 @@
+﻿Author of code review: Jingyu Gu
+Date: 3/18/2019
+Sprint3
+Name of the file: EnemyCollision.cs
+Author of the cs file: All members
+
+Some team members change the class by using delegate. But I think it's reduncdent to use both delegate and gametime.
+If it's changed to delegate pattern, why still keeping the gametime to wait for insurction.
+
+According to code smell, it's a large class with many methods. If the methods with gametime can be combined with delegate, the
+class can be not so large.
+
+
+Time used for this code review: 10 minutes.
+
+Hypothetical changes
+combine methods. either eliminate elegate or gametime.

@@ -1,0 +1,9 @@
+﻿Author: Tianyang Zhang
+Date: 2/12/2019
+Sprint1
+Reviewing: MarioAvatar.cs
+Author of CS file: Micheal
+
+Overall it is a quality code. All the functions are constructed clearly with one or two lines, which makes the code eazy to 
+maintain. Its also a good idea to initiallize the first state as Idel state. However, there are multiple spots that 
+"this.property" can be change to only "property".

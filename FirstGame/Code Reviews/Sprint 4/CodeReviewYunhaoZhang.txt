@@ -1,0 +1,18 @@
+﻿Author of this code review: Yunhao Zhang
+
+Date of the code review: 03/19/19
+
+Sprint number: sprint 4
+
+Name of the .cs file being reviewed: EndScript.cs
+
+Author of the .cs file being reviewed: Chris Clarke
+
+Specific comments on code quality:
+	the logics in the code straightforward and easy to understand
+
+Number of minutes taken to complete the review: 20
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation
+could or could not easily support that change:
+	the code in this class is flexiable which means we can add more feasures in it easily.

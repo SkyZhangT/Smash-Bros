@@ -1,0 +1,28 @@
+﻿Author of code review: Chris Clarke
+Date of code review: 4/2/2019
+Sprint number: 4
+Name of .cs file being reviewed: CollisionHandling.cs
+Author of .cs file being reviewed (most recent): All
+
+Specific comments on code quality: 
+- Two getplace methods and two remove methods
+- not well documented
+- start to delegate events but never fully implemented
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed:
+
+-Add in collision based on time to help with odd collision situations when mario runs in to the top corner of an enemy, that almost seem unfair.
+
+
+How the current implementation could or could not easily support that change:
+
+-It would be hard to do as the lack of documentation hurts the readablity and none of the current code is based on time. But there is access to time and if collisions were organized by time and run through the current
+code, it would work the same.
+
+Specifically with trying to add delegates and not fully adding, alot of code has just been commented out or left in that does not need to exist(most deleted). Furthermore, all calculations are done with Vector2 instead
+of point, leaving all the values as floats for more complicated math that must be run many times. This does allow the smaller bounding box for the broad/narrow sweep, but might be more costly than it is worth with the extra math
+functions involved. The entity calling the function gets two calls to its corrisponding collision methods, response, and side/bottom/top response, which is good as it allows repeated code to go to the response method.
+
+
+THIS IS A TEST

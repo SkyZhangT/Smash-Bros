@@ -1,0 +1,19 @@
+﻿Author of code review: Tianyang Zhang
+Date: 2/12/2019
+Sprint1
+Name of the file: MarioAvatar.cs
+Author of the cs file: Micheael Morrill
+
+Overall it is a quality code. All the functions are constructed clearly with one or two lines, which makes the 
+code eazy to maintain. Its also a good idea to initiallize the first state as Idel state. Good naming convention
+for all variables.
+
+However, there are multiple spots that "this.property" can be change to only "property". 
+
+Time used for this code review: 30 minutes. Its really hard to figure out the relationship between this class
+and the states.
+
+Also, there are something that we can fix in future:
+	NeedFlip is a property of entity, we should not need to pass it to sprite.
+	First sprite should be initialized within the state.
+	We might want to explicitly initialize the power state.

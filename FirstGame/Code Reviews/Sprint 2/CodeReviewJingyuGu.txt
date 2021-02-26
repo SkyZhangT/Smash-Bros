@@ -1,0 +1,15 @@
+﻿Author of code review: Jingyu Gu
+Date: 2/25/2019
+Sprint2
+Name of the file: EnemyCollision.cs
+Author of the cs file: TianyangZhang
+
+This class changes Goomba's state after being hit from top by Mario. A response method clearly shows the collision on screen.
+It has functional cohesion since it only change Goomba's state. 
+
+
+Time used for this code review: 15 minutes.
+
+Hypothetical changes
+The "enemy" in constrctor means Mario? The naming is confusing.
+Also distinguish blocks and Mario to support block collision with Goomba

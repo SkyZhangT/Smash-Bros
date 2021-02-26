@@ -1,0 +1,20 @@
+﻿Author of this code review: Yunhao Zhang
+
+Date of the code review: 02/12/19
+
+Sprint number: sprint 1
+
+Name of the .cs file being reviewed: CoinBoxState.cs
+
+Author of the .cs file being reviewed: Tianyang Zhang
+
+Specific comments on code quality:
+	This CoinBoxState class fully implemented IBlockState interface.The declaration of this class is neat. Variable names
+	were chosen properly. Logics for coin left detaction are correcet.
+
+Number of minutes taken to complete the review: 20
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation
+could or could not easily support that change:
+	Next step we are going to implement collition function. This class already has a usable collition determinate logic 
+	for us to do this upgrade.

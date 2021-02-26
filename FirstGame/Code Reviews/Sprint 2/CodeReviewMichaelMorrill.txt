@@ -1,0 +1,19 @@
+﻿Author of code review: Michael Morrill
+Date of code review: 2/26/2019
+Sprint number: 2
+Name of .cs file being reviewed: IEntity.cs
+Author of .cs file being reviewed: (Most recent) Yunhao Zhang, Chris Clarke
+
+Specific comments on code quality: 
+- IEntity should be as general as possible
+- Multiple variables for specific implementations seems dirty
+
+Number of minutes taken to complete the review: 30 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+The ActionState variable made me realize that specific state variables don't really belong in the IEntity class.
+Since the IEntity class is being used by enemies now, we have separate state variables for Mario and Goombas/Koopas.
+It seems that the collision classes rely on this structure, which would make this class difficult to refactor. If
+the class were to be refactored, we could pull the enemy-related variables into a separate class, with states and
+variables specific to any type of enemy.

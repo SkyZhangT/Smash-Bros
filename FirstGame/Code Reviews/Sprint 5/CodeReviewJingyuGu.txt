@@ -1,0 +1,20 @@
+﻿Author of code review: Jingyu Gu
+Date: 4/15/2019
+Sprint5
+Name of the file: MapSelectScene.cs
+Author of the cs file: Tianyang Zhang
+
+Why font is loaded in update()? Should that be in initialize()?
+The 3 big if branches and 6 small if branches in draw contain many duplicated code.
+Other strings can be drawn by using string builder.
+I think scene functions the same as GameSate, so I don't know they should be 2 interfaces.
+
+
+Time used for this code review: 10 minutes.
+
+Hypothetical changes
+The big if branches can be simplified as 
+declear AvatarList1 contains 2 Mario with different color
+AvatarList2 AvatarList3 to contain other avatars with 2 colors.
+if one key is pressed, pop one of three AvatarList to get the avatar.
+Don't need too many if branches.

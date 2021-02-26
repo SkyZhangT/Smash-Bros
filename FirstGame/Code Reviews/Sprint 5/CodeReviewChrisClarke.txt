@@ -1,0 +1,28 @@
+﻿Author of code review: Chris Clarke
+Date of code review: 4/16/2019
+Sprint number: 5
+Name of .cs file being reviewed: GameStateTransitions.cs
+Author of .cs file being reviewed (most recent): Jingyu Gu
+
+Comments on code quality: 
+- The update method of this class is run every loop of Game.update, meaning it's run alot. With that said, all the update method does
+is check if a player avatar is in deadState or out of lives. Everything its checked could be changed and only run at certain times, such as
+when an avatar transitions to dead state this method could be called, which would cause this method to be called less times, leading to
+a better final product. Inside the method is a if/elseif loop with four branches. The first two do the exact same thing with the only difference being
+changing a winner variable. This is duplicate code which should be condensed. The second two loops also do the same thing, but to different
+player avatars, meaning this could also be condensed, with a parameter added in. The if statement itself involves checking variables
+through Game.CurrentScene... which is a smell. The only other method of this class is Restore. Restore is a leftover method, and is never used by the game.
+It was still updated at some point this sprint.
+
+Specifically
+-Refactor into different methods
+-Only call these methods when needed instead of every loop.
+-delete extra code and unneccesary variables
+
+Number of minutes taken to complete the review: 25 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+Adding a third player character. A third player character could be easily added and incorporated into this code. The way the code is written now,
+it would take adding two more branches onto the if loop. If refactored the way suggested above, the same code could be used again, with the only change being
+checking for the third players lives, and not ending until two of the three players lives are done. 

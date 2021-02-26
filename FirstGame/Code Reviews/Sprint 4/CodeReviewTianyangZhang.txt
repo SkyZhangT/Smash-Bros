@@ -1,0 +1,23 @@
+﻿Author of code review: Tianyang Zhang
+Date of code review: 4/2/2019
+Sprint number: 4
+Name of .cs file being reviewed: GameStateTransitions.cs
+Author of .cs file being reviewed (most recent): Michael Morrill
+
+-nice clear methods
+-not a lot global variables
+-good encapsulation of variables
+
+The prospect memory is just a class with a public float, I am not really
+understand why we need this. Can't we just use a float?
+
+Number of minutes taken to complete the review: 20 minutes
+
+If this class is managing the game state transition like its name, why it 
+is dealing with sounds and checkpoints. It should focus on the transition '
+from game to end-game scene, or from the place mario dead to the last 
+checkpoint.
+
+Overall it is a quality code. All the methods are constructed clearly with less than 15 lines, which makes the 
+code eazy to maintain. Its also a good idea to initiallize the first state as Idel state. Good naming convention
+for all variables. But more comments around will be even better.

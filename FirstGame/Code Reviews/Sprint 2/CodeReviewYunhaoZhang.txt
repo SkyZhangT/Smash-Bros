@@ -1,0 +1,18 @@
+﻿Author of this code review: Yunhao Zhang
+
+Date of the code review: 02/26/19
+
+Sprint number: sprint 2
+
+Name of the .cs file being reviewed: CollisionHandling.cs
+
+Author of the .cs file being reviewed: Tianyang Zhang
+
+Specific comments on code quality:
+	the code has high colhison and low coupling
+
+Number of minutes taken to complete the review: 20
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation
+could or could not easily support that change:
+	entities will reposition when collieding with others, this may cause Mario shakking when add gravity to it in sprint 3

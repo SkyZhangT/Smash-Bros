@@ -1,0 +1,20 @@
+﻿Author of code review: Michael Morrill
+Date of code review: 4/16/2019
+Sprint number: 5
+Name of .cs file being reviewed: AvatarMain.cs
+Author of .cs file being reviewed (most recent): Chris Clarke
+
+Specific comments on code quality: 
+- Redundant variables
+- Could be refactored so that some features are in other classes
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+With power ups, it does not make structural sense to put the actual power-up execution in the AvatarMain class. Power ups could each have their own class,
+with each containing the specific logic for each power up. The code for the power ups is well-written, and could easily be put into multiple classes without significant
+modification.
+
+There are also 4 different state variables in the class, CurrentState, CurrentActionState, CurrentPowerState, and ActionState. This could be reduced to 2 for
+simplification, but the amount of references to each variable might make this difficult.

@@ -1,0 +1,20 @@
+﻿Author of code review: Jingyu Gu
+Date: 4/2/2019
+Sprint4
+Name of the file: HUD.cs
+Author of the cs file: Tianyang Zhang
+
+This class draws the final scores and score pannel during the game.
+In Draw method, those lines of DrawString can be simplied by using string builder in the other two methods.
+This needs refactoring
+
+Using a string to convert score to 6 digit is copied many times in this class.
+So this part can be made into one helper method.
+
+World="1-1" should be read from level, and add world name into level file
+
+
+Time used for this code review: 10 minutes.
+
+Hypothetical changes
+using string builder, make a new method, read world name from level

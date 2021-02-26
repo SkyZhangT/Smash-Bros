@@ -1,0 +1,18 @@
+﻿Author of code review: Michael Morrill
+Date of code review: 4/2/2019
+Sprint number: 4
+Name of .cs file being reviewed: Game1.cs
+Author of .cs file being reviewed (most recent): Jingyu Gu/Yunhao Zhang
+
+Specific comments on code quality: 
+- Many global variables
+- Hard to tell what the class is actually doing
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+With the addition of cutscenes, Game1 has become dirty. There are many global variables that make it difficult to understand
+everything that Game1 is doing. Some script files have been started, and we could do more to make cutscenes work independent of Game1.
+Some difficulty in this would be trying to define the relationship between the game's state and these scripts, and how to make these 2 elements
+work without being dependent on each other.

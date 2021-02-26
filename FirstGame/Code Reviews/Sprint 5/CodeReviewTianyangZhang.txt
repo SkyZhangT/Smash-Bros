@@ -1,0 +1,29 @@
+﻿Author of code review: Tianyang Zhang
+Date of code review: 4/16/2019
+Sprint number: 5
+Name of .cs file being reviewed: Level.cs
+Author of .cs file being reviewed (most recent): Jingyu Gu
+
+Several first impressions:
+-No comments
+-Long methods
+-Huge switch
+
+There are no comments at all, I need to look through all the relative class to know the purpose of
+the lines. Add comments can help with later maintainance.
+
+It is a class that reads the csv level file and generates entities based on the file content.
+In sprint 5, some of the entities are no-longer in use, so it will be cleaner if we comment them
+out. 
+
+It is well capsulated because all the variables are hidding in the abstract class. However, the 
+variables with internal keys are better implemented as private variables inside the class. 
+
+Two lists: ItemBlockList and Floorlists are supposed to be the same list, because floors is a special
+type of block. However, the type of itemblocklist is IEntity while the Floorlist is IBlockEntity.
+It is supposed to be consistant because they all implements IEntity interface.
+
+The class already takes Game as a parameter, why it needs the entitymanager? EntityManager is a object
+contained by Game and it is public, we should able to directly use Game.EntityManager to access it.
+
+Number of minutes taken to complete the review: 20 minutes

@@ -1,0 +1,30 @@
+﻿Author of code review: Tianyang Zhang
+Date of code review: 3/19/2019
+Sprint number: 3
+Name of .cs file being reviewed: EnemyCollision.cs
+Author of .cs file being reviewed (most recent): Chris Clarke
+
+Code Quality: Good
+-Good Design Patern Implementation
+-Good Encapsulation
+-Great Cohesion
+-Fine Coupling
+-Lack of Comments
+-Hard to do maintainance and update
+
+Time to Complete the code review: 25 min
+
+Several ways to improve maintainability:
+-Add comments
+-Add spaces separate irrelevent lines in one long function
+
+just like the avatar collision, we can implement singleton design patern for this class. Although it can
+make the code looks better and easier to call the functions inside enemy collision, but we need to revise 
+the whole class to implement it. We might left it there and revise it until we really need to do so.
+
+It is confusing that the functions inside this class is designed like a Matryoshka. They call each other 
+and formed multiple layer. I believe it will be more clear and eazy to read. Also it saves time between updates.
+
+Overall it is a quality code. All the methods are constructed clearly with less than 15 lines, which makes the 
+code eazy to maintain. Its also a good idea to initiallize the first state as Idel state. Good naming convention
+for all variables. But more comments around will be even better.

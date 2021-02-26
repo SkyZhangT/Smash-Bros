@@ -1,0 +1,16 @@
+﻿Author of code review: Chris Clarke
+Date: 2/12/2019
+Sprint1
+Name of the reviewed file: CommandMap.cs
+Author of the reviewed  cs file: Michael Morrill
+
+Quality of Code: The code is very well written and organized, splitting into appropriate regions. As this class creates and holds the mapping for all control commands,
+				most of this file is used for creating and mapping commands to actions. Naming of variables is a little mixed as all class
+				variables except for game are capitalized. There is also a variable called HiddenBox and another called HiddenBrick, which
+				doesn't help distinguish what these objects are or what the difference is, as well as having names very similar to each other. The
+				only thing "missing" is some functionality for the gamepad, which is not required but might be nice to have. There is no gamePad 
+				command for quitting or cheat codes.
+Time taken for this code review: 20 minutes
+	
+A hypothetical change: Mapping different or same commands to different keys. With this class, doing this would be very easy as all it would take
+						is changing the key or command value.

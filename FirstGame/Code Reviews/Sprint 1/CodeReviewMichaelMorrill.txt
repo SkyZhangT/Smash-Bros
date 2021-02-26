@@ -1,0 +1,18 @@
+﻿Author of code review: Michael Morrill
+Date of code review: 2/12/2019
+Sprint number: 1
+Name of .cs file being reviewed: BreakBrick.cs
+Author of .cs file being reviewed: Tianyang Zhang
+
+Specific comments on code quality: 
+- Code has good quality overall.
+- What is the variable FD?
+- Good how position is being updated in the entity.
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+The changing of the entity's position could be made to be independent of the entity.
+For example, the broken brick moving down could be put into a separate class that could be switched out withing the entity.
+This would be somewhat difficult to implement, as there are many entity classes that would need to be updated.

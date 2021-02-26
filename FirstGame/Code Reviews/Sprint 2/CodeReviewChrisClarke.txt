@@ -1,0 +1,14 @@
+﻿Author: Chris Clarke
+Date: 2/26/2019
+Sprint: 2
+File Being Reviewed: Level.cs
+Author of File: Jingyu Gu
+
+Comments: Code does everything it is supposed to do, but seems to be needlessly complex. It accepts a csv file made from an excel file, so entries are separated by 
+		  comma and each consist of the format entity/xcoordinate/ycoordinate.It would be more effective to add for loops to loop through the commas for position to make
+		  file easier to work with when level design needs to change. It also consists of two methods, one that finds all entities to add, and another that adds them. It
+		  would make more sense and save a little time and memory if these methods were combined.
+
+Hypothetical Change: Changing level design to longer and changing positions. This could support the change, but it would be easier to support if suggested changes above were
+implemented. 
+Time Taken: 20 minutes

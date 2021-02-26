@@ -1,0 +1,15 @@
+﻿Author of Code Review: Tianyang Zhang
+Date of Code Review: 02/26/2019
+Sprint number: 2
+Name of the .cs file: EntityManager.cs
+Author of the .cs file: Michael Morrill
+
+It is a manager that holds all the concrete entity objects of the game. Now it already have comprehensive feature and
+Functionality: add entity, draw entity, update entity, delete entity. Good and quality code. All the attrubutes are well
+encapsulated. It have good cohesion since all the methods are providing managemantal tools to control all the entities.
+
+Time to do the code review: 25 min
+
+The entity delete part can be optimized by update the dead entity detection algorithm.
+It should also provide position calculation methods for the future sprints.
+

@@ -1,0 +1,18 @@
+﻿Author of this code review: Yunhao Zhang
+
+Date of the code review: 03/19/19
+
+Sprint number: sprint 3
+
+Name of the .cs file being reviewed: HiddenBoxState.cs
+
+Author of the .cs file being reviewed: Tianyang Zhang
+
+Specific comments on code quality:
+	the logics in the code correct and easy to understand
+
+Number of minutes taken to complete the review: 20
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation
+could or could not easily support that change:
+	no more changes needed, the .cs file already did all its jobs.

@@ -1,0 +1,18 @@
+﻿Author of code review: Chris Clarke
+Date of code review: 3/19/2019
+Sprint number: 3
+Name of .cs file being reviewed: MarioAvatar.cs
+Author of .cs file being reviewed: Everyone
+
+Specific comments on code quality: 
+- Too many variables, we should try to condense where we can
+- So many if statements for movement in update, could probably condense
+- Avatar able to change state inside update, which it shouldn't, but says in comments fixes a bug
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+Adding additional movement features such as double jumps or speed up movements would be more difficult because of how many if statements to work around, and variables to work around.
+Most of this is needed though, so the written code could support the change, it would just take more work than necessary. 
+Mostly this class needs refactoring and condensing to lessen confusion.

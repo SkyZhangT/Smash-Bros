@@ -1,0 +1,17 @@
+﻿Author of code review: Jingyu Gu
+Date: 2/12/2019
+Sprint1
+Name of the file: SmallMarioPowerUpState.cs
+Author of the cs file: YunhaoZhang
+
+This class changes small mario to other types of mario. It has high cohesion because it only does one job.
+Names all follow the conventions. But there are some points to be improved(see hypothetical change).
+
+Time used for this code review: 15 minutes.
+
+Hypothetical changes
+1. In the line: Avatar.Position = new Vector2(Avatar.Position.X, Avatar.Position.Y + 16);
+I think we dont need "+16" to make the entity on the same horizon because we can add gravity and colision detection in Spirnt2.
+The gravity makes the mario still standing on ground while changing the power up state.
+2. Since the class has Avator with field. It's unnecessary to have return value in each method.
+We can just modify the value in Avator. In this way, when changing small mario to small mario, there's nothing needed to be written into the method.

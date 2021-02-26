@@ -1,0 +1,19 @@
+﻿Author of this code review: Yunhao Zhang
+
+Date of the code review: 04/16/19
+
+Sprint number: sprint 5
+
+Name of the .cs file being reviewed: Level.cs
+
+Author of the .cs file being reviewed: Tianyang Zhang
+
+Specific comments on code quality:
+	The code has been refined to be able to load multiple maps and Avatar players.
+
+Number of minutes taken to complete the review: 20
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation
+could or could not easily support that change:
+	We may add more map and player Avatar types to the game. the level.cs file can easily support these change
+	by adding more switch cases.

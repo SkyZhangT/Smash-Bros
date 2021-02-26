@@ -1,0 +1,24 @@
+﻿Author of code review: Michael Morrill
+Date of code review: 3/19/2019
+Sprint number: 3
+Name of .cs file being reviewed: AvatarCollision.cs
+Author of .cs file being reviewed (most recent): Chris Clarke
+
+Specific comments on code quality: 
+- Code is generally easy to follow
+- Lots of duplicate code
+- Could it be possible to delegate property changes to another class?
+
+Number of minutes taken to complete the review: 20 minutes
+A hypothetical change to make the game related to file being reviewed and
+how the current implementation could or could not easily support that change:
+
+There is a large amount of duplicate code in this file. For example, when the avatar hits a coin,
+all 4 directions have the same check for a coin entity, and then modify that entity themselves.
+
+Instead of checking what entity was hit for every single possible entity, it could be possible to
+add methods to the entity classes that handle collisions. So we could have entityHit.collideRight(Avatar) instead of
+checking all cases.
+
+This would be a large change, and does not have many functional implications; however, it would greatly
+improve code readability and control flow.

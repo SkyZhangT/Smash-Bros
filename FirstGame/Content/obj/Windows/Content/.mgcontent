@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/BigBush.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/BigCloud.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/BigHill.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/Castle.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/Firework.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/Moon.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/SmallBush.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/SmallCloud.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/SmallCloudLayer2.xcf.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/SmallHill.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/StarFlag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/StarTile.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/StarTile2.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BackGround/Sun.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/black.jpg</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/ActualFlag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/Brick.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/CBrick.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/CCoinBox.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/CFloorBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/Cfrag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/CoinBox.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/CSpecialBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/FireBall.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/Flag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/FloorBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/frag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/Pipe.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/Platform.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/SpecialBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/UGBrick.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/UGCoinBox.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/UGFloorBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/UGfrag.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Blocks/UGSpecialBlock.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BlueDeadKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BlueJumpingKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BlueKoopaCrouch.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BlueKoopaShell.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/BlueWalkingKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/cai.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/caiDarkRed.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/caiRed.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/DeadMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/DefaultFont.spritefont</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Enemies/BulletBill.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Enemies/CheepCheep.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Enemies/EnemySpritesheet.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Enemies/Thwomp.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Figure.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/FireMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/FireMarioClimb.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/FireMarioCrouchLeft.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/FireMarioCrouchRight.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenDeadKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenJumpingKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenKoopaCrouch.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenKoopaShell.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenKoopaStanding.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/GreenKoopaWalking.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/HUD/Arial.spritefont</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Items/BulletBillItem.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Items/CheepCheepItem.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Items/Items.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Items/ThwompItem.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/KoopaFigure.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/DeadLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/FireLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/FireLuigiCrouchLeft.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/FireLuigiCrouchRight.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/LuigiGrowing.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/SmallLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/smb_luigi_sheet.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/SuperLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/SuperLuigiCrouchLeft.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Luigi/SuperLuigiCrouchRight.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/MarioGrowing.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/panda.jpg</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedDeadKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedJumpingKoopa.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedKoopaCrouch.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedKoopaShell.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedKoopaStanding.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/RedKoopaWalking.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SkillName.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SmallMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SmallMarioClimb.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/1up.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/breakblock.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/bump.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/coin.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/ending.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/fireball.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/fireworks.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/HurryStarman.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/jump-small.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/jump-super.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/kick.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/pipe.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/powerup.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/powerupup.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/RX-0.mp3</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/smb_gameover.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/smb_mariodie.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/starman.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/stomp.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/SuperMarioBrosTheme.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/SuperMarioBrosThemeFaster1.5.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/Sounds/warning.wav</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/bang.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/BlackLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/BlackMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Bros.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Chaos.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/circle.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Fire.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Go.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/LuigiIntro.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/MarioIntro.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/plate.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Set.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Smash.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/Super.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/VSLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/VSMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/WhiteLuigi.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SSB/WhiteMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SuperMario.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SuperMarioClimb.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SuperMarioCrouchLeft.png</File>
+    <File>C:/Users/zhang/Source/Repos/Smash Bros/FirstGame/Content/SuperMarioCrouchRight.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
