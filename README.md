@@ -1,10 +1,10 @@
 # Smash-Bros
 A Mario Themed Game of a mixture of Super Smash Bro's game mechanism and our own innovative ideas.
 
-# Execute Guide
+## Execute Guide
 Please execute the Sprint0.exe file under \Smash-Bros\FirstGame\bin\Windows\x86\Debug folder to run the game.
 
-# Contribution
+## Contribution
 This is a semester-long course work project for Ohio State University CSE3902, supervised by Prof. Scott Mills. The develope team incudes 5 talented young men:<br>
 The order of the following list does not represent any sequential meaning.<br>
 <ul>
