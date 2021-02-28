@@ -6,7 +6,7 @@ Please execute the Sprint0.exe file under \Smash-Bros\FirstGame\bin\Windows\x86\
 
 # Contribution
 This is a semester-long course work project for Ohio State University CSE3902, supervised by Prof. Scott Mills. The develope team incudes 5 talented young men:<br>
-The order of list does not represent any sequential meaning.<br>
+The order of the following list does not represent any sequential meaning.<br>
 <ul>
 <li>Tianyang Zhang --myself<br>
 <li>Yunhao Zhang<br>
